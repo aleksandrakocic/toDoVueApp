@@ -1,6 +1,11 @@
 <template>
 
-  <div id='crno' class='col-md-8'>
+  <div id='primer'>
+
+    HELLO HELLO hello hello
+
+
+    <p>pls pls pls pls PLS PLS PLS</p>
 
   </div>
 
@@ -13,13 +18,28 @@ export default {
     msg: String
   }
 }
+
+
+//boldovani font -- <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+// 
+
+
 </script>
 
 
 <style scoped>
 
-#crno {
-  background: black;
+#primer{
+
+  background: lightblue;
+  font-family: 'Anton', sans-serif;
+
 }
+
+#primer p{
+
+    font-family: 'Poppins', sans-serif;
+}
+
 
 </style>
