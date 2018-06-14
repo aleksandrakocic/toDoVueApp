@@ -1,5 +1,9 @@
 <template>
 
+  <div id='crno' class='col-md-8'>
+
+  </div>
+
 </template>
 
 <script>
@@ -11,6 +15,11 @@ export default {
 }
 </script>
 
+
 <style scoped>
+
+#crno {
+  background: black;
+}
 
 </style>

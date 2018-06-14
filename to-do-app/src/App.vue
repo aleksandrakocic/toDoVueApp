@@ -14,14 +14,12 @@ export default {
   
   components: {
     toDo
-  },
+  }
   
 
 }
 </script>
 
 <style>
-#app {
 
-}
 </style>
