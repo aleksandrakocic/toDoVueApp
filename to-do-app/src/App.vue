@@ -3,8 +3,10 @@
 
     <!-- <tasks/> -->
 
-      <listNotes v-bind:notes="notes"></listNotes>
-      <createNote v-on:create-note="createNote"></createNote>
+      <!-- <listNotes v-bind:notes="notes"></listNotes>
+      <createNote v-on:create-note="createNote"></createNote> -->
+
+      <toDo></toDo>
 
   </div>
 </template>
@@ -18,6 +20,8 @@ import createNote from './components/createNote.vue'
 
 import note from './components/note.vue';
 
+import toDo from './components/toDo.vue';
+
 export default {
   name: 'app',
   
@@ -25,7 +29,8 @@ export default {
     tasks,
     listNotes,
     createNote,
-    note
+    note,
+    toDo
   },
 
   data() {

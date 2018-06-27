@@ -34,6 +34,7 @@
 <script>
     export default {
         props: ['note'],
+        name:'note',
         
         data(){
             return{

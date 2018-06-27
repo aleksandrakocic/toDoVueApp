@@ -55,7 +55,7 @@ methods: {
    
    addNote() {
      var {title, text} = this.note
-     this.note = ''
+    //  this.note = ''
      this.notes.push({
        text,title,date: new Date(Date.now()).toLocaleString()
      })
