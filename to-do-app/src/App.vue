@@ -7,6 +7,7 @@
       <createNote v-on:create-note="createNote"></createNote> -->
 
       <toDo></toDo>
+      <Datepicker></Datepicker>
 
   </div>
 </template>
@@ -22,6 +23,9 @@ import note from './components/note.vue';
 
 import toDo from './components/toDo.vue';
 
+import Datepicker from 'vuejs-datepicker';
+
+
 export default {
   name: 'app',
   
@@ -30,7 +34,8 @@ export default {
     listNotes,
     createNote,
     note,
-    toDo
+    toDo,
+    Datepicker
   },
 
   data() {
