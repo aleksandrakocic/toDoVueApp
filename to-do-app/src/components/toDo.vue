@@ -1,6 +1,7 @@
 <template>
 <div>
 <div class='container'>
+    <v-date-picker></v-date-picker>
     <!-- sakri ceo 
          na ikonicu za setings
          ond se opojavljuje sve -->

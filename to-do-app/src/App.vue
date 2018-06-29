@@ -7,7 +7,8 @@
       <createNote v-on:create-note="createNote"></createNote> -->
 
       <toDo></toDo>
-      <Datepicker></Datepicker>
+      <Datepicker  @selected="doSomethingInParentComponentFunction" @opened="datepickerOpenedFunction" @closed="datepickerClosedFunction"></Datepicker>
+      
 
   </div>
 </template>
